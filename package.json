@@ -1,0 +1,22 @@
+{
+  "name": "balthasar",
+  "version": "0.1.0",
+  "description": "TikTok clone using AT Proto",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind-watch": "npx @tailwindcss/cli -i ./resources/public/css/input.css -o ./resources/public/css/output.css --watch"
+  },
+  "author": "Hadil Sabbagh",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "shadow-cljs": "^2.28.20",
+    "tailwindcss": "^4.0.0"
+  }
+}
