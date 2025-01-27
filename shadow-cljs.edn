@@ -6,4 +6,5 @@
    :output-dir "resources/public/app/js"
    :asset-path "/app/js"
    :modules {:main {:entries [balthasar.main]
-                    :init-fn balthasar.main/init!}}}}}
+                    :init-fn balthasar.main/init!}}
+   :devtools {:preloads [uix.preload devtools.preload]}}}}
