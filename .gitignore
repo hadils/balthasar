@@ -6,3 +6,5 @@
 /.shadow-cljs
 /node_modules
 /resources/public/app
+/uploads
+/videos
